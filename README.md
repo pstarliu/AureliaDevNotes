@@ -5,6 +5,5 @@ The download provided from Rod's video no longer avaliable. Initially I was tryi
 thought it might be taking longer, but is doable and will help me learn better by typing code myself. But it turns out that not all the 
 are going to be shown in the video.
 
-Now I found a couple of repositories in Github which does has the steps code initially provided by Rod:[From B3zo0]
-(https://github.com/B3zo0/aurelia-workshop.git), and [From bpringe] (https://github.com/bpringe/aurelia-notes.git).
+Now I found a couple of repositories in Github which does has the steps code initially provided by Rod:[From bpringe] (https://github.com/bpringe/aurelia-notes.git).
 
