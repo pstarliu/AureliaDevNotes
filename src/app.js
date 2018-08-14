@@ -2,7 +2,7 @@ export class App {
     configureRouter(config, router){
         config.title = 'Aurelia Notes';
         config.map([
-            { router: '', moduleId: 'welcome' }
+            { route: '', moduleId: 'welcome' }
         ]);
 
         this.router = router;
