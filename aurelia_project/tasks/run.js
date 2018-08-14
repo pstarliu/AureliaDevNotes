@@ -19,7 +19,8 @@ function runWebpack(done) {
     open: project.platform.open,
     stats: {
       colors: require('supports-color')
-    }
+    },
+    https: true
   };
 
   if (project.platform.hmr || CLIOptions.hasFlag('hmr')) {
