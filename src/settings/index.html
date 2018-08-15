@@ -4,15 +4,37 @@
   <section class="settings au-animate">
     <form role="form">
       <!--TODO: Create User Profile Form
-      * An input to edit the `firstName`
-      * An input to edit the `lastName`
-      * A span to display the `fullName`
-      * A button that submits the form, causing the `submit()` method to be executed on the view-model.
-      -->
-      <input type="text" value.bind="firstName">
-      <input type="text" value.bind="lastName">
-      <span>${fullName}</span>
-      <button type="submit" click.trigger="submit()">Submit</button>
+              * An input to edit the `firstName`
+              * An input to edit the `lastName`
+              * A span to display the `fullName`
+              * A button that submits the form, causing the `submit()` method to be executed on the view-model.
+              -->
+      <div class="form-row">
+        <div class="col">
+          <label for="firstNameInput">First Name:</label>
+        </div>
+        <div class="col">
+          <input type="text" value.bind="firstName" id="firstNameInput">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <label for="lastNameInput">Last Name:</label>
+        </div>
+        <div class="col">
+          <input type="text" value.bind="lastName" id="lastNameInput">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <span>${fullName}</span>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <button type="submit" click.trigger="submit()">Submit</button>
+        </div>
+      </div>
     </form>
   </section>
 </template>
